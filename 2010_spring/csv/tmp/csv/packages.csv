@@ -18,7 +18,6 @@
 20,20,"gettext","GNU internationalization and localization i18n library","0.17","2007-11-06","2009-10-04"
 21,21,"intltool","Internationalization Tool Collection","0.41.1","2010-03-24","2010-04-01"
 22,22,"linux","Linux kernel","2.6.31.4","2009-10-12","2009-10-19"
-23,23,"wget","GNU Wget","1.12","2009-09-22","2009-10-22"
 24,24,"xterm","xterm terminal emulator","250","2009-08-01","2009-10-24"
 25,25,"google-chrome","Google Chrome web browser","092024","2009-10-24","2009-10-24"
 26,26,"libpng","library for reading and writing PNGs","1.2.41","2009-12-17","2009-12-17"
