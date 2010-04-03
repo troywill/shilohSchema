@@ -11,7 +11,6 @@
 11,11,"autoconf","Autoconf","2.64","2009-07-26","2009-09-30"
 12,12,"automake","Automake","1.11","2009-05-17","2009-09-29"
 13,13,"expat","Expat XML Parser","2.0.1","2007-06-05","2009-10-02"
-14,14,"libxml2","The XML C parser and toolkit of Gnome","2.7.6","2009-10-06","2009-10-27"
 15,15,"python","Python Programming Language","2.6.4","2009-10-25","2009-10-28"
 16,16,"libxslt","The XSLT C library for GNOME (provides xsltproc)","1.1.26","2009-09-24","2009-10-14"
 17,17,"freetype","Freetype font engine","2.3.11","2009-10-10","2009-10-28"
