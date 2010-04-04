@@ -7,4 +7,5 @@ ${EDITOR} tmp/csv/latest_tarball.csv latest_tarball.csv
 ${EDITOR} tmp/csv/stowballs.csv stowballs.csv
 git add *.csv
 git commit -a
+echo "==> git push origin master"
 git push origin master
