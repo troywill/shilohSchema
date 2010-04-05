@@ -1,5 +1,3 @@
-1,"http://www.gnu.org/software/make/","wp","http://www.linuxfromscratch.org/lfs/view/development/chapter06/make.html","n/a","2009-10-25"
-2,"http://www.gnu.org/software/emacs/","http://en.wikipedia.org/wiki/Emacs","http://www.linuxfromscratch.org/blfs/view/svn/postlfs/emacs.html","n/a","2009-10-22"
 3,"http://www.gnu.org/software/mdk/mdk.html","http://en.wikipedia.org/wiki/GNU_MIX_Development_Kit","n/a","G","2009-09-27"
 4,"http://gcc.gnu.org/","http://en.wikipedia.org/wiki/GNU_Compiler_Collection","http://www.linuxfromscratch.org/lfs/view/development/chapter06/gcc.html","http://docs.google.com/Doc?id=df927s4r_61cknr25gf","2009-10-01"
 5,"http://gmplib.org/","http://en.wikipedia.org/wiki/GNU_Multi-Precision_Library","http://www.linuxfromscratch.org/lfs/view/development/chapter06/gmp.html","http://docs.google.com/View?id=df927s4r_56cp6ss5hh","2009-07-31"
@@ -41,7 +39,6 @@
 53,"http://www.freedesktop.org/wiki/Software/shared-mime-info","n/a","http://www.linuxfromscratch.org/blfs/view/svn/x/shared-mime-info.html","2010-04-01"
 57,"http://en.wikipedia.org/wiki/Website","http://en.wikipedia.org/wiki/MPlayer","http://www.linuxfromscratch.org/blfs/view/svn/multimedia/mplayer.html","G","2009-10-22"
 58,"http://www.sudo.ws/","http://en.wikipedia.org/wiki/Sudo","http://www.linuxfromscratch.org/blfs/view/svn/postlfs/sudo.html","","2009-10-27"
-59,"http://roy.marples.name/projects/dhcpcd/wiki","http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol","http://www.linuxfromscratch.org/blfs/view/svn/basicnet/dhcpcd.html","","2009-11-08"
 62,"http://search.cpan.org/dist/Text-CSV/","n/a","http://www.linuxfromscratch.org/blfs/view/svn/general/perl-modules.html","n/a","2009-10-20"
 63,"http://www.gnu.org/software/screen/","http://en.wikipedia.org/wiki/GNU_Screen","http://www.linuxfromscratch.org/blfs/view/svn/general/screen.html","http://docs.google.com/View?id=df927s4r_75xw7z6tgh","2009-10-20"
 64,"http://dbi.perl.org/","http://en.wikipedia.org/wiki/Perl_DBI","n/a","n/a","2009-10-24"
