@@ -11,5 +11,6 @@ git commit -a
 echo "==> git push origin master"
 git push origin master
 
-# cd ${STOWBALL_TOP_DIR} && ./
+/home/troy/rcs/stowball/stowball-write-db-csv
+
 
