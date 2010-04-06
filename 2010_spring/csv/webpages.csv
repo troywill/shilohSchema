@@ -9,3 +9,5 @@
 9,http://www.gnu.org/software/emacs,http://en.wikipedia.org/wiki/Emacs,http://www.linuxfromscratch.org/blfs/view/svn/postlfs/emacs.html,2010-04-04
 10,http://rsync.samba.org,http://en.wikipedia.org/wiki/Rsync,http://www.linuxfromscratch.org/blfs/view/svn/server/rsync.html,2010-04-04
 11,http://dbi.perl.org,http://en.wikipedia.org/wiki/Perl_DBI,n/a,2010-04-05
+12,http://search.cpan.org/dist/DBD-SQLite,n/a,n/a,2010-04-05
+

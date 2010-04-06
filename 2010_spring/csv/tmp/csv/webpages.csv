@@ -41,7 +41,6 @@
 58,"http://www.sudo.ws/","http://en.wikipedia.org/wiki/Sudo","http://www.linuxfromscratch.org/blfs/view/svn/postlfs/sudo.html","","2009-10-27"
 62,"http://search.cpan.org/dist/Text-CSV/","n/a","http://www.linuxfromscratch.org/blfs/view/svn/general/perl-modules.html","n/a","2009-10-20"
 63,"http://www.gnu.org/software/screen/","http://en.wikipedia.org/wiki/GNU_Screen","http://www.linuxfromscratch.org/blfs/view/svn/general/screen.html","http://docs.google.com/View?id=df927s4r_75xw7z6tgh","2009-10-20"
-65,"http://search.cpan.org/dist/DBD-SQLite/","n/a","n/a""n/a","2009-10-24"
 67,"http://search.cpan.org/~msergeant/","n/a","http://www.linuxfromscratch.org/blfs/view/svn/general/perl-modules.html","n/a","2009-10-27"
 68,"http://www.gnu.org/software/gperf/","http://en.wikipedia.org/wiki/Perfect_hash_function","http://www.linuxfromscratch.org/blfs/view/svn/general/gperf.html","n/a","2009-10-28"
 69,"http://www.ruby-lang.org","http://en.wikipedia.org/wiki/Ruby_(programming_language)","http://www.linuxfromscratch.org/blfs/view/svn/general/ruby.html","n/a","2009-11-01"
