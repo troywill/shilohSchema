@@ -49,7 +49,8 @@ do_stow () {
 do_update_info_dir () {
     INFO_FILE="${PREFIX}/info/${PACKAGE}.info"
     DIR_FILE="${PREFIX}/info/dir"
-    echo "install-info $INFO_FILE $DIR_FILE"
+    INSTALL_INFO_COMMAND="${SUDO} install-info $INFO_FILE $DIR_FILE"
+    echo $INSTALL_INFO_COMMAND="${SUDO} install-info $INFO_FILE $DIR_FILE"
 }
 
 do_package () {
@@ -57,7 +58,6 @@ do_package () {
     cd ${STOW_DIR}
     ${SUDO} tar -jcf ${TARBALL} ${PACKAGE_DIR}
     ${SUDO} mv --verbose ${TARBALL} /tmp
-    md5sum /tmp/${TARBALL}
 }
 
 do_configure
