@@ -1,0 +1,56 @@
+#!/bin/bash
+set -o errexit
+# autostow template 2010-04-06
+# stow target = /, stow dir = /stow
+PACKAGE="openssl"
+VERSION="1.0.0"
+PACKAGER="TDW <troydwill@gmail.com>"
+HOMEPAGE_URL="http://www.openssl.org"
+SOURCE_URL="http://www.openssl.org/source/openssl-1.0.0.tar.gz"
+DATE="2010-04-06"
+PREFIX="/usr"
+TARGET="/"
+STOW_DIR="/stow"
+SUDO="sudo"
+
+PACKAGE_DIR=${PACKAGE}-${VERSION}
+
+do_configure () {
+    ./config --prefix=${PREFIX} \
+	--openssldir=/etc/ssl \
+	shared \
+	zlib-dynamic \
+	2>&1 | tee log.stow.configure
+}
+
+do_build () {
+    make 2>&1 | tee log.stow.make
+}
+
+do_install () {
+    ${SUDO} make INSTALL_PREFIX=/${STOW_DIR}/openssl-${VERSION} install \
+	2>&1 | tee log.stow.install
+}
+
+do_check_conflicts () {
+    ${SUDO} stow --conflicts --target=${TARGET} --dir=${STOW_DIR} ${PACKAGE_DIR} 2>&1 | tee log.stow.conflicts
+}
+
+do_stow () {
+    ${SUDO} stow --target=${TARGET} --dir=${STOW_DIR} ${PACKAGE_DIR} 2>&1 | tee log.stow.stow
+}
+
+do_package () {
+    TARBALL="${PACKAGE_DIR}.stow.tar.bz2"
+    cd ${STOW_DIR}
+    ${SUDO} tar -jcf ${TARBALL} ${PACKAGE_DIR}
+    ${SUDO} mv --verbose ${TARBALL} /tmp
+    md5sum /tmp/${TARBALL}
+}
+
+do_configure
+do_build
+do_install
+do_stow
+do_package
+exit
