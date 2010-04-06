@@ -31,7 +31,7 @@ do_stow () {
 
 do_package () {
     cd $STOW_DIR
-    ${SUDO} tar -jcf ${PACKAGE_DIR}.stow.tar.bz2 ${STOW_DIR}${PACKAGE_DIR}
+    ${SUDO} tar -jcf ${PACKAGE_DIR}.stow.tar.bz2 ${PACKAGE_DIR}
     ${SUDO} mv --verbose ${PACKAGE_DIR}.stow.tar.bz2 /tmp
 }
 

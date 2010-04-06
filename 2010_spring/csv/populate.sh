@@ -12,5 +12,3 @@ echo "==> git push origin master"
 git push origin master
 
 /home/troy/rcs/stowball/stowball-write-db-csv
-
-
