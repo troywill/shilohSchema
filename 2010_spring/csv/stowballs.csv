@@ -4,7 +4,8 @@
 4,libxslt-1.1.26.stow.tar.bz2,613c11e28eb65165b33e01fd73bad7dc,2010-04-03
 5,wget-1.12.stow.tar.bz2,8f17b3d01934ab486cc66bdc7763aae1,2010-04-03
 6,cpio-2.11.stow.tar.bz2,ddc96314e7ded3c240704bde8818755d,2010-04-04
-7,wireless_tools-30.pre9.stow.tar.bz2,79e616867d4cd1aa7d6f6519bac230f3
-8,
-9,
-10,DBI-1.611.stow.tar.bz2,c616cffee0f344c37fd4e045a7a87054,2010-04-05
+7,wireless_tools-30.pre9.stow.tar.bz2,79e616867d4cd1aa7d6f6519bac230f3,2010-04-04
+8,dhcpcd-5.2.2.stow.tar.bz2,458d97f1f98f6470ed9c1cd94dd23cce,2010-04-04
+9,emacs-nox-23.1.stow.tar.bz2,33e4663cd7389e0c99262bf9dd2e83a3,2010-04-05
+10,rsync-3.0.7.stow.tar.bz2,a19cadf698231a17cbda7c946f930173,2010-04-04
+11,DBI-1.611.stow.tar.bz2,c616cffee0f344c37fd4e045a7a87054,2010-04-05
