@@ -11,3 +11,5 @@
 11,DBI,"DBI: the standard database interface module for Perl",1.611,2010-03-02,2010-04-05
 12,DBD-SQLite,"CPAN module: DBD-SQLite, Self-contained RDBMS (SQLite) in a DBI Driver",1.30_02,2010-03-30,2010-05-05
 13,sudo,"run some (or all) commands as root",1.7.2p5,2010-03-01,2010-04-05
+14,qt,Qt application development framework,4.6.2,2010-04-06
+
