@@ -9,7 +9,7 @@
 9,emacs-nox,GNU Emacs without X support,23.1,2009-07-29,2010-04-04
 10,rsync,rsync,3.0.7,2009-12-31,2010-04-04
 11,DBI,"DBI: the standard database interface module for Perl",1.611,2010-03-02,2010-04-05
-12,DBD-SQLite,"CPAN module: DBD-SQLite, Self-contained RDBMS (SQLite) in a DBI Driver",1.30_02,2010-03-30,2010-05-05
+12,DBD-SQLite,"CPAN module: DBD-SQLite, Self-contained RDBMS (SQLite) in a DBI Driver",1.30_02,2010-03-30,2010-04-05
 13,sudo,"run some (or all) commands as root",1.7.2p5,2010-03-01,2010-04-05
 14,qt-framework,Qt application development framework,4.6.2,2010-02-15,2010-04-06
 15,qt-sdk,Qt SDK: Complete Development Environment,4.6.2,2010-02-15,2010-04-06
