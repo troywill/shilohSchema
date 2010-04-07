@@ -1,9 +1,9 @@
 1,http://search.cpan.org/dist/Text-CSV/,n/a,http://www.linuxfromscratch.org/blfs/view/svn/general/perl-modules.html,2010-04-02
 2,http://www.sqlite.org/,http://en.wikipedia.org/wiki/SQLite,http://www.linuxfromscratch.org/blfs/view/svn/server/sqlite.html,2010-04-03
-3,http://xmlsoft.org/,http://en.wikipedia.org/wiki/Libxml2,http://www.linuxfromscratch.org/blfs/view/svn/general/libxml2.html,2010-04-03
+3,http://xmlsoft.org/,http://en.wikipedia.org/wiki/Libxml2,http://www.linuxfromscratch.org/blfs/view/svn/general/libxml2.html,2010-04-07
 4,http://xmlsoft.org/XSLT,http://en.wikipedia.org/wiki/Libxslt,http://www.linuxfromscratch.org/blfs/view/svn/general/libxslt.html,2010-04-03
-5,http://www.gnu.org/software/wget/,http://en.wikipedia.org/wiki/Wget,http://www.linuxfromscratch.org/blfs/view/svn/basicnet/wget.html,2010-04-03
-6,http://www.gnu.org/software/cpio/cpio.html,http://en.wikipedia.org/wiki/Cpio,http://www.linuxfromscratch.org/blfs/view/svn/general/cpio.html,2010-04-03
+5,http://www.gnu.org/software/wget/,http://en.wikipedia.org/wiki/Wget,http://www.linuxfromscratch.org/blfs/view/svn/basicnet/wget.html,2010-04-07
+6,http://www.gnu.org/software/cpio/cpio.html,http://en.wikipedia.org/wiki/Cpio,http://www.linuxfromscratch.org/blfs/view/svn/general/cpio.html,2010-04-07
 7,http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html,http://en.wikipedia.org/wiki/Wireless_tools_for_Linux,http://www.linuxfromscratch.org/blfs/view/svn/basicnet/wireless_tools.html,2010-04-04
 8,http://roy.marples.name/projects/dhcpcd,http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol,http://www.linuxfromscratch.org/blfs/view/svn/basicnet/dhcpcd.html,2010-04-04
 9,http://www.gnu.org/software/emacs,http://en.wikipedia.org/wiki/Emacs,http://www.linuxfromscratch.org/blfs/view/svn/postlfs/emacs.html,2010-04-04
