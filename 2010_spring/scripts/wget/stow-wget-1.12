@@ -61,7 +61,7 @@ do_poststow
 do_package
 exit
 
-Some output from ./configur --help=short on 2010-04-03
+Some output from ./configure --help=short on 2010-04-03
 Configuration of wget 1.12:
 
 Optional Features:
