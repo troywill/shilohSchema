@@ -20,3 +20,5 @@
 20,http://python.org,http://en.wikipedia.org/wiki/Python_(programming_language),http://www.linuxfromscratch.org/blfs/view/svn/general/python.html,2010-04-06
 21,http://www.hpl.hp.com/research/linux/atomic_ops,n/a,n/a,2010-04-06
 22,http://expat.sourceforge.net,http://en.wikipedia.org/wiki/Expat_(XML),http://www.linuxfromscratch.org/blfs/view/svn/general/expat.html,2010-04-08
+23,http://www.freetype.org/,http://en.wikipedia.org/wiki/FreeType,http://www.linuxfromscratch.org/blfs/view/svn/general/freetype2.html,2010-04-08
+
