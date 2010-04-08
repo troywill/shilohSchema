@@ -21,3 +21,5 @@
 21,atomic_ops,Multiplatform library with atomic operations,7.2alpha4,2009-12-02,2010-04-06
 22,expat,Expat XML Parser,2.0.1,2007-06-05,2010-04-08
 23,freetype,Freetype font engine,2.3.12,2010-02-12,2010-04-08
+24,ruby,Ruby,1.9.1-p376,2009-12-07,2010-04-08
+

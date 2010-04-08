@@ -38,7 +38,7 @@
 63,"http://www.gnu.org/software/screen/","http://en.wikipedia.org/wiki/GNU_Screen","http://www.linuxfromscratch.org/blfs/view/svn/general/screen.html","http://docs.google.com/View?id=df927s4r_75xw7z6tgh","2009-10-20"
 67,"http://search.cpan.org/~msergeant/","n/a","http://www.linuxfromscratch.org/blfs/view/svn/general/perl-modules.html","n/a","2009-10-27"
 68,"http://www.gnu.org/software/gperf/","http://en.wikipedia.org/wiki/Perfect_hash_function","http://www.linuxfromscratch.org/blfs/view/svn/general/gperf.html","n/a","2009-10-28"
-69,"http://www.ruby-lang.org","http://en.wikipedia.org/wiki/Ruby_(programming_language)","http://www.linuxfromscratch.org/blfs/view/svn/general/ruby.html","n/a","2009-11-01"
+a","2009-11-01"
 70,"http://en.wikipedia.org/wiki/Website","http://en.wikipedia.org/wiki/MPlayer","http://www.linuxfromscratch.org/blfs/view/svn/multimedia/mplayer.html","G","2009-10-22"
 73,"http://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.82.tar.gz","http://en.wikipedia.org/wiki/D-Bus","http://www.linuxfromscratch.org/blfs/view/svn/general/dbus-bindings.html","G","2009-11-07"
 75,"http://search.cpan.org/dist/ConfigReader-Simple/","n/a","n/a","n/a","2010-04-01"
