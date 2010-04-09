@@ -4,6 +4,7 @@ set -o errexit
 # autostow template 2010-04-06
 # GNU DESTDIR type
 # stow target = /, stow dir = /stow
+RUBY="1.8"
 STOW="stow2"
 PACKAGE="rack"
 VERSION="1.1.0"
@@ -19,7 +20,6 @@ TARGET="/"
 STOW_DIR="/stow"
 SUDO="sudo"
 
-RUBY_VERSION=`ruby -e 'print RUBY_VERSION'`
 PACKAGE="${GEM_NAME}_${GEM_VERSION}_${RUBY_VERSION}"
 PACKAGE_DIR="${STOW_DIR}/${PACKAGE}"
 
