@@ -4,7 +4,7 @@ set -o errexit
 # autostow template 2010-04-06
 # GNU DESTDIR type
 # stow target = /, stow dir = /stow
-RUBY="1.8"
+RUBY_VERSION="1.8"
 STOW="stow2"
 PACKAGE="rack"
 VERSION="1.1.0"
