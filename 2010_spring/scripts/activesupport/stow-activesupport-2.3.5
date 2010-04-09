@@ -11,7 +11,7 @@ PACKAGE_DIR="${STOW_DIR}/${GEM_NAME}-${GEM_VERSION}"
 
 GEM="GEM_NAME-GEM_VERSION"
 
-${SUDO} gem install ${GEM_NAME}\
+${SUDO} gem install ${GEM_NAME} \
     --verbose \
     --version ${GEM_VERSION}
     --install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/gems/${RUBY_VERSION} \
