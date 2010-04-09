@@ -3,3 +3,10 @@ TDW 2010-04-09 => I ran ruby setup.rb as non-root and got this:
 ERROR:  While executing gem ... (Errno::EACCES)
     Permission denied - /usr/lib/ruby/site_ruby/1.8/gauntlet_rubygems.rb
 </failure>
+
+<failure>
+TDW 2010-04-09 => DESTDIR=/stow/rubygems; PREFIX=/usr/lib/ruby
+What happened: puts gem binary in /usr/lib/ruby/bin/gem. Therefore, it won't execute
+
+</failure>
+

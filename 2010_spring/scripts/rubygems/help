@@ -1,0 +1,43 @@
+# ruby setup.rb --help > ../help
+Usage: gem setup [options]
+
+  Options:
+        --prefix=PREFIX              Prefix path for installing RubyGems
+                                     Will not affect gem repository location
+        --destdir=DESTDIR            Root directory to install RubyGems into
+                                     Mainly used for packaging RubyGems
+        --[no-]vendor                Install into vendorlibdir not sitelibdir
+                                     (Requires Ruby 1.8.7)
+        --[no-]format-executable     Makes `gem` match ruby
+                                     If ruby is ruby18, gem will be gem18
+        --[no-]rdoc                  Generate RDoc documentation for RubyGems
+        --[no-]ri                    Generate RI documentation for RubyGems
+
+  Common Options:
+    -h, --help                       Get help on this command
+    -V, --[no-]verbose               Set the verbose level of output
+    -q, --quiet                      Silence commands
+        --config-file FILE           Use this config file instead of default
+        --backtrace                  Show stack backtrace on errors
+        --debug                      Turn on Ruby debugging
+
+  Summary:
+    Install RubyGems
+
+  Description:
+    Installs RubyGems itself.
+    
+    RubyGems installs RDoc for itself in GEM_HOME.  By default this is:
+      /usr/lib/ruby/gems/1.8
+    
+    If you prefer a different directory, set the GEM_HOME environment variable.
+    
+    RubyGems will install the gem command with a name matching ruby's
+    prefix and suffix.  If ruby was installed as `ruby18`, gem will be
+    installed as `gem18`.
+    
+    By default, this RubyGems will install gem as:
+      gem
+
+  Defaults:
+    --format-executable --rdoc --ri
