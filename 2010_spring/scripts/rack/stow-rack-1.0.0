@@ -1,0 +1,45 @@
+#!/bin/bash
+set -o errexit
+set -o errexit
+# autostow template 2010-04-06
+# GNU DESTDIR type
+# stow target = /, stow dir = /stow
+RUBY_VERSION="1.8"
+STOW="stow2"
+PACKAGE="rack"
+VERSION="1.1.0"
+GEM_NAME=${PACKAGE}
+GEM_VERSION=${VERSION}
+# PACKAGER="JS <Jane_Smith@fsf.org>"
+PACKAGER="TDW <troydwill@gmail.com>"
+HOMEPAGE_URL=""
+SOURCE_URL=""
+DATE="2010-04-08"
+PREFIX="/usr"
+TARGET="/"
+STOW_DIR="/stow"
+SUDO="sudo"
+
+PACKAGE="${GEM_NAME}_${GEM_VERSION}_${RUBY_VERSION}"
+PACKAGE_DIR="${STOW_DIR}/${PACKAGE}"
+
+GEM="GEM_NAME-GEM_VERSION"
+
+do_install () {
+    ${SUDO} gem install \
+	--verbose \
+	--install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/gems/${RUBY_VERSION} \
+	--bindir ${PACKAGE_DIR}/${PREFIX}/bin \
+	--no-rdoc \
+	--no-ri \
+	--ignore-dependencies \
+	${GEM_NAME} \
+        make 2>&1 | tee log.stow.install
+}
+
+do_stow () {
+    ${SUDO} ${STOW} ${PACKAGE}
+}
+
+do_install
+do_stow
