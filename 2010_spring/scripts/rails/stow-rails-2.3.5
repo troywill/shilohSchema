@@ -5,9 +5,9 @@ PREFIX='/usr'
 GEM_NAME='rails'
 GEM_VERSION='2.3.5'
 RUBY_VERSION=`ruby -e 'print RUBY_VERSION'`
-RUBY_VERSION='1.9.1'
 STOW_DIR='/stow'
-PACKAGE_DIR="${STOW_DIR}/${GEM_NAME}-${GEM_VERSION}"
+PACKAGE="${GEM_NAME}_${GEM_VERSION}_${RUBY_VERSION}"
+PACKAGE_DIR="${STOW_DIR}/${PACKAGE}"
 
 GEM="GEM_NAME-GEM_VERSION"
 
@@ -20,3 +20,5 @@ ${SUDO} gem install \
     --ignore-dependencies \
     ${GEM_NAME}
 exit
+
+
