@@ -11,15 +11,11 @@ PACKAGE_DIR="${STOW_DIR}/${GEM_NAME}-${GEM_VERSION}"
 
 GEM="GEM_NAME-GEM_VERSION"
 
-COMMAND="${SUDO} gem install ${GEM_NAME} \
+${SUDO} gem install ${GEM_NAME} \
     --verbose \
-    --version ${GEM_VERSION}
+    --version ${GEM_VERSION} \
     --install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/gems/${RUBY_VERSION} \
     --bindir ${PACKAGE_DIR}/${PREFIX}/bin \
     --no-rdoc \
     --no-ri \
-    --ignore-dependencies"
-
-echo $COMMAND
-$COMMAND
-exit
+    --ignore-dependencies
