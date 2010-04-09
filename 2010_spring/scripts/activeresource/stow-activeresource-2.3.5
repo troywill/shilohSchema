@@ -1,0 +1,31 @@
+#!/bin/bash
+set -o errexit
+SUDO="sudo"
+PREFIX='/usr'
+STOW_DIR='/stow'
+GEM_NAME='activeresource'
+GEM_VERSION='2.3.5'
+RUBY_VERSION=`ruby -e 'print RUBY_VERSION'`
+RUBY_VERSION='1.9.1'
+PACKAGE="${GEM_NAME}-${GEM_VERSION}"
+PACKAGE_DIR="${STOW_DIR}/${PACKAGE}"
+
+GEM="GEM_NAME-GEM_VERSION"
+
+do_install () {
+    ${SUDO} gem install ${GEM_NAME} \
+	--verbose \
+	--version ${GEM_VERSION} \
+	--install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/gems/${RUBY_VERSION} \
+	--bindir ${PACKAGE_DIR}/${PREFIX}/bin \
+	--no-rdoc \
+	--no-ri \
+	--ignore-dependencies
+}
+
+do_stow () {
+    ${SUDO} stow "${PACKAGE}"
+}
+
+do_install
+do_stow
