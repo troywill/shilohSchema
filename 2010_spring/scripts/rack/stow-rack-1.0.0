@@ -1,8 +1,6 @@
 #!/bin/bash
 set -o errexit
 set -o errexit
-# autostow template 2010-04-06
-# GNU DESTDIR type
 # stow target = /, stow dir = /stow
 RUBY_VERSION="1.8"
 STOW="stow2"
@@ -25,14 +23,14 @@ PACKAGE_DIR="${STOW_DIR}/${PACKAGE}"
 GEM="GEM_NAME-GEM_VERSION"
 
 do_install () {
-    ${SUDO} gem install \
+    ${SUDO} gem install ${GEM_NAME} \
 	--verbose \
 	--install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/gems/${RUBY_VERSION} \
 	--bindir ${PACKAGE_DIR}/${PREFIX}/bin \
 	--no-rdoc \
 	--no-ri \
 	--ignore-dependencies \
-	${GEM_NAME} \
+	--version ${VERSION} \
         make 2>&1 | tee log.stow.install
 }
 
@@ -40,5 +38,10 @@ do_stow () {
     ${SUDO} ${STOW} ${PACKAGE}
 }
 
+do_package () {
+    echo "PLACEHOLDER"
+}
+
 do_install
 do_stow
+do_package
