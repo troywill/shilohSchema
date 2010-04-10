@@ -16,11 +16,11 @@ GEM="GEM_NAME-GEM_VERSION"
 
 ${SUDO} gem install \
     ${GEM_NAME} \
-    --install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/gems/${RUBY_VERSION} \
+    --install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/site_ruby/1.91 \
     --bindir ${PACKAGE_DIR}/${PREFIX}/bin \
     --no-rdoc \
     --no-ri \
     --ignore-dependencies
 
-${SUDO} find -cmin -2 /usr > find.cmin2.usr
-${SUDO} find -cmin -2 /stow > find.cmin2.stow
+${SUDO} find /usr -cmin -2 > find.cmin2.usr
+${SUDO} find /stow -cmin -2 > find.cmin2.stow
