@@ -1,0 +1,11 @@
+#!/bin/bash
+GEM_NAME="rails"
+
+${SUDO} gem install \
+    ${GEM_NAME} \
+    --no-rdoc \
+    --no-ri \
+    --ignore-dependencies
+
+${SUDO} find /usr -cmin -2 > find.cmin2.manual.usr
+${SUDO} find /stow -cmin -2 > find.cmin2.manual.stow
