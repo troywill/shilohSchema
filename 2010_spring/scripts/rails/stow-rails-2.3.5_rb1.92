@@ -1,24 +1,26 @@
 #!/bin/bash
-RUBY_VERSION=$1
+RUBY_VERSION=`ruby -e 'print RUBY_VERSION'`
+RUBY_VERSION='1.92'
 set -o errexit
 SUDO="sudo"
 PREFIX='/usr'
+LOADPATH="${PREFIX}/lib/ruby/site_ruby/1.91"
 GEM_NAME='rails'
 GEM_VERSION='2.3.5'
-RUBY_VERSION=`ruby -e 'print RUBY_VERSION'`
 
 STOW_DIR='/stow'
-PACKAGE="${GEM_NAME}_${GEM_VERSION}_${RUBY_VERSION}"
+PACKAGE="${GEM_NAME}_${GEM_VERSION}_rb${RUBY_VERSION}"
 PACKAGE_DIR="${STOW_DIR}/${PACKAGE}"
 
 GEM="GEM_NAME-GEM_VERSION"
 
 ${SUDO} gem install \
-    --verbose \
+    ${GEM_NAME} \
     --install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/gems/${RUBY_VERSION} \
     --bindir ${PACKAGE_DIR}/${PREFIX}/bin \
     --no-rdoc \
     --no-ri \
-    --ignore-dependencies \
-    ${GEM_NAME}
-exit
+    --ignore-dependencies
+
+${SUDO} find -cmin -2 /usr > find.cmin2.usr
+${SUDO} find -cmin -2 /stow > find.cmin2.stow
