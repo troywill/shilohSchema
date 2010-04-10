@@ -4,7 +4,6 @@ RUBY_VERSION='1.92'
 set -o errexit
 SUDO="sudo"
 PREFIX='/usr'
-LOADPATH="${PREFIX}/lib/ruby/site_ruby/1.91"
 GEM_NAME='rails'
 GEM_VERSION='2.3.5'
 
@@ -12,11 +11,13 @@ STOW_DIR='/stow'
 PACKAGE="${GEM_NAME}_${GEM_VERSION}_rb${RUBY_VERSION}"
 PACKAGE_DIR="${STOW_DIR}/${PACKAGE}"
 
+INSTALL_DIR="${PACKAGE_DIR}${PREFIX}/lib/ruby/gems/1.91"
+
 GEM="GEM_NAME-GEM_VERSION"
 
 ${SUDO} gem install \
     ${GEM_NAME} \
-    --install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/site_ruby/1.91 \
+    --install-dir ${INSTALL_DIR} \
     --bindir ${PACKAGE_DIR}/${PREFIX}/bin \
     --no-rdoc \
     --no-ri \
