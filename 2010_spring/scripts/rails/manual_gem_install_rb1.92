@@ -1,4 +1,5 @@
 #!/bin/bash
+SUDO="sudo"
 GEM_NAME="rails"
 
 ${SUDO} gem install \
