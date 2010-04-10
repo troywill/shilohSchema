@@ -1,13 +1,13 @@
-1,Text::CSV,"CPAN module: Text::CSV",1.17,2010-03-16,2010-04-07
-2,sqlite3,"SQLite embedded SQL database engine",3.6.23.1,2010-03-30,2010-04-09
-3,libxml2,"The XML C parser and toolkit of Gnome",2.7.7,2010-03-15,2010-04-09
-4,libxslt,"The XSLT C library for GNOME (provides xsltproc)",1.1.26,2009-06-10,2010-04-07
+1,Text::CSV,"CPAN module: Text::CSV",1.17,2010-03-16,2010-04-10
+2,sqlite3,"SQLite embedded SQL database engine",3.6.23.1,2010-03-30,2010-04-10
+3,libxml2,"The XML C parser and toolkit of Gnome",2.7.7,2010-03-15,2010-04-10
+4,libxslt,"The XSLT C library for GNOME (provides xsltproc)",1.1.26,2009-06-10,2010-04-10
 5,wget,"GNU Wget",1.12,2009-09-22,2010-04-10
 6,cpio,"GNU Cpio",2.11,2010-03-10,2010-04-10
 7,wireless_tools,"Wireless Tools for Linux",30-pre9,2009-11-24,2010-04-10
 8,dhcpcd,dhcpcd,5.2.2,2010-03-31,2010-04-10
-9,emacs-nox,"GNU Emacs without X support",23.1,2009-07-29,2010-04-09
-10,rsync,rsync,3.0.7,2009-12-31,2010-04-09
+9,emacs-nox,"GNU Emacs without X support",23.1,2009-07-29,2010-04-10
+10,rsync,rsync,3.0.7,2009-12-31,2010-04-10
 11,DBI,"DBI: the standard database interface module for Perl",1.611,2010-03-02,2010-04-10
 12,DBD-SQLite,"CPAN module: DBD-SQLite, Self-contained RDBMS (SQLite) in a DBI Driver",1.30_02,2010-03-30,2010-04-10
 13,sudo,"run some (or all) commands as root",1.7.2p5,2010-03-01,2010-04-10
@@ -19,6 +19,6 @@
 19,python3,"Python Programming Language",3.1.2,2010-03-21,2010-04-10
 20,python,"Python Programming Language",2.6.5,2010-03-19,2010-04-10
 21,atomic_ops,"Multiplatform library with atomic operations",7.2alpha4,2009-12-02,2010-04-10
-22,expat,"Expat XML Parser",2.0.1,2007-06-05,2010-04-08
-23,freetype,"Freetype font engine",2.3.12,2010-02-12,2010-04-08
-24,ruby,Ruby,1.9.1-p376,2009-12-07,2010-04-08
+22,expat,"Expat XML Parser",2.0.1,2007-06-05,2010-04-10
+23,freetype,"Freetype font engine",2.3.12,2010-02-12,2010-04-10
+24,ruby,Ruby,1.9.1-p376,2009-12-07,2010-04-10
