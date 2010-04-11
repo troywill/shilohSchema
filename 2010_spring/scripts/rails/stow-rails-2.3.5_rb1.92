@@ -25,3 +25,9 @@ ${SUDO} gem install \
 
 ${SUDO} find /usr -cmin -2 > find.cmin2.usr
 ${SUDO} find /stow -cmin -2 > find.cmin2.stow
+
+${SUDO} stow ${PACKAGE}
+echo "Check stow"
+stow --conflicts ${PACKAGE}
+
+
