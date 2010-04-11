@@ -1,0 +1,3 @@
+http://code.google.com/p/arora/
+qmake "CONFIG-=debug" -r
+make
