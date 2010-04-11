@@ -1,0 +1,22 @@
+<failure>
+/usr/lib/ruby/1.9.1/rubygems/config_file.rb:166:in `merge': can't convert String into Hash (TypeError)
+	from /usr/lib/ruby/1.9.1/rubygems/config_file.rb:166:in `initialize'
+	from /usr/lib/ruby/1.9.1/rubygems.rb:383:in `new'
+	from /usr/lib/ruby/1.9.1/rubygems.rb:383:in `configuration'
+	from /usr/lib/ruby/1.9.1/rubygems.rb:601:in `path'
+	from /usr/lib/ruby/1.9.1/rubygems/source_index.rb:68:in `installed_spec_directories'
+	from /usr/lib/ruby/1.9.1/rubygems/source_index.rb:58:in `from_installed_gems'
+	from /usr/lib/ruby/1.9.1/rubygems.rb:849:in `source_index'
+	from /usr/lib/ruby/1.9.1/rubygems/gem_path_searcher.rb:81:in `init_gemspecs'
+	from /usr/lib/ruby/1.9.1/rubygems/gem_path_searcher.rb:13:in `initialize'
+	from /usr/lib/ruby/1.9.1/rubygems.rb:807:in `new'
+	from /usr/lib/ruby/1.9.1/rubygems.rb:807:in `block in searcher'
+	from <internal:prelude>:10:in `synchronize'
+	from /usr/lib/ruby/1.9.1/rubygems.rb:806:in `searcher'
+	from /usr/lib/ruby/1.9.1/rubygems.rb:477:in `find_files'
+	from /usr/lib/ruby/1.9.1/rubygems.rb:1069:in `<top (required)>'
+	from <internal:gem_prelude>:162:in `require'
+	from <internal:gem_prelude>:162:in `load_full_rubygems_library'
+	from <internal:gem_prelude>:274:in `const_missing'
+	from /usr/bin/gem:12:in `<main>'
+</failure>
