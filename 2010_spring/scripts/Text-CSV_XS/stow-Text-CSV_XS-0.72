@@ -3,7 +3,7 @@ set -o errexit
 PACKAGE="Text-CSV_XS"
 VERSION="0.72"
 PACKAGER="TDW <troydwill@gmail.com>"
-DATE="2010-04-09"
+DATE="2010-04-10"
 HOMEPAGE_URL="http://search.cpan.org/~hmbrand/"
 SOURCE_URL="http://search.cpan.org/CPAN/authors/id/H/HM/HMBRAND/Text-CSV_XS-0.72.tgz"
 PREFIX="/usr"
@@ -12,6 +12,11 @@ STOW_DIR="/stow"
 SUDO="sudo"
 
 PACKAGE_DIR=${PACKAGE}-${VERSION}
+
+continue_prompt () {
+    echo "Ctrl-c to quit, Enter to continue"
+    read
+}
 
 do_configure () {
     perl Makefile.PL PREFIX=${PREFIX} 2>&1 | tee log.stow.configure.${PACKAGE}-${VERSION}
@@ -45,10 +50,10 @@ do_package () {
     ${SUDO} mv --verbose ${TARBALL} /tmp
 }
 
-do_configure
-do_build
-do_test
-do_install
-do_stow
-do_poststow
-do_package
+do_configure && continue_prompt
+do_build && continue_prompt
+do_test && continue_prompt
+do_install && continue_prompt
+do_stow && continue_prompt
+do_poststow && continue_prompt
+do_package && continue_prompt
