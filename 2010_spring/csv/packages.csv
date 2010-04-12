@@ -43,3 +43,4 @@ id,short_name,name,latest_version,date_released,date_checked
 42,Class-Singleton,"CPAN: Class::Singleton - Implementation of a ""Singleton"" class",1.4,2007-09-28,2010-04-12
 43,DateTime-Format-MySQL,CPAN: DateTime::Format::MySQL - Parse and format MySQL dates and times,0.04,2005-04-17,2010-04-12
 44,DateTime-Format-Builder,CPAN: DateTime::Format::Builder - Create DateTime parser classes and objects,0.80,2010-03-14,2010-04-12
+45,Class-Factory-Util,CPAN: Class::Factory::Util - Provide utility methods for factory classes,1.7,2010-03-30,2010-04-12
