@@ -38,3 +38,4 @@ id,short_name,name,latest_version,date_released,date_checked
 37,Sub-Uplevel,CPAN module: Sub::Uplevel - apparently run a function in a higher stack frame,0.22,2009-11-17,2010-04-12
 38,DateTime-Locale,CPAN module: DateTime::Locale - Localization support for DateTime.pm,0.45,2010-03-19,2010-04-12
 39,List-MoreUtils,CPAN module: List::MoreUtils - Provide the stuff missing in List::Util,0.25_02,2009-08-01,2010-04-12
+40,Params-Validate,CPAN module: Params::Validate - Validate method/function parameters,0.95,2010-02-16,2010-04-12
