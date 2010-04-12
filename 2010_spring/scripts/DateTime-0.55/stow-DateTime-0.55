@@ -31,7 +31,7 @@ do_test () {
 }
 
 do_install () {
-    ${SUDO} Build DESTDIR=${STOW_DIR}/${PACKAGE_DIR} install 2>&1 | tee log.stow.install.${PACKAGE}-${VERSION}
+    ${SUDO} ./Build DESTDIR=${STOW_DIR}/${PACKAGE_DIR} install 2>&1 | tee log.stow.install.${PACKAGE}-${VERSION}
 }
 
 do_stow () {
