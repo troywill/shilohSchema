@@ -33,4 +33,4 @@ id,short_name,name,latest_version,date_released,date_checked
 32,Clone-PP,CPAN module: Clone::PP - Recursively copy Perl datatypes,1.02,2003-08-28,2010-04-11
 33,Rose-Object,CPAN module: A simple object base class,0.858,2010-02-10,2010-04-12
 34,Rose-DateTime,CPAN module: DateTime helper functions and objects,0.534,2010-03-22,2010-04-12
-
+35,DateTime,CPAN module: A date and time object,0.55,2010-03-16,2010-04-12
