@@ -11,4 +11,4 @@ git commit -a
 echo "==> git push origin master"
 git push origin master
 sleep 1
-/home/troy/rcs/stowball/stowball-write-db-csv
+/home/troy/rcs/stowball/stowball-write-db-from-csv
