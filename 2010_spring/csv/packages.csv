@@ -40,3 +40,4 @@ id,short_name,name,latest_version,date_released,date_checked
 39,List-MoreUtils,CPAN module: List::MoreUtils - Provide the stuff missing in List::Util,0.25_02,2009-08-01,2010-04-12
 40,Params-Validate,CPAN module: Params::Validate - Validate method/function parameters,0.95,2010-02-16,2010-04-12
 41,DateTime-TimeZone,CPAN: DateTime::TimeZone - Time zone object base class and factory,1.17,2010-04-10,2010-04-12
+41,Class-Singleton,CPAN: Class::Singleton - Implementation of a \"Singleton\" class,1.4,2007-09-28,2010-04-12
