@@ -76,7 +76,6 @@
 95,95,"ntp","Network Time Protocol","4.2.4p7","2009-05-18","2009-11-25"
 96,96,"lynx","Lynx is a text based web browser.","2.8.7rel.1","2009-07-05","2009-11-26"
 97,97,"Test-Output","CPAN module: Utilities to test STDOUT and STDERR messages.","0.16","2009-11-26","2009-11-26"
-98,98,"Sub-Exporter","CPAN module: a sophisticated exporter for custom-built routines","0.982","2009-01-16","2009-11-26"
 99,99,"Data-OptList","CPAN module: parse and validate simple name/value option pairs","0.104","2009-01-19","2009-11-26"
 100,100,"Params-Util","CPAN module: Simple, compact and correct param-checking functions","1.00","2009-05-30","2009-11-26"
 101,101,"Sub-Install","CPAN module: install subroutines into packages easily","0.925","2009-01-19","2009-11-26"
