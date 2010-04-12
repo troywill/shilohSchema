@@ -46,3 +46,4 @@ id,short_name,name,latest_version,date_released,date_checked
 45,Class-Factory-Util,CPAN: Class::Factory::Util - Provide utility methods for factory classes,1.7,2010-03-30,2010-04-12
 46,DateTime-Format-Strptime,CPAN: DateTime::Format::Strptime - Parse and format strp and strf time patterns,1.2000,2010-03-19,2010-04-12
 47,Task-Weaken,CPAN: Task::Weaken - Ensure that a platform has weaken support,1.03,2009-06-12,2010-04-12
+48,DateTime-Format-Pg,CPAN: DateTime::Format::Pg - Parse and format PostgreSQL dates and times,0.16004,2009-07-05,2010-04-12
