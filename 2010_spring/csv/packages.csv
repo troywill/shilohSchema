@@ -23,3 +23,4 @@ id,short_name,name,latest_version,date_released,date_checked
 22,expat,"Expat XML Parser",2.0.1,2007-06-05,2010-04-11
 23,freetype,"Freetype font engine",2.3.12,2010-02-12,2010-04-11
 24,ruby,Ruby,1.9.2,2009-12-07,2010-04-11
+25,Rose-DB,CPAN module: A DBI wrapper and abstraction layer,0.758,2010-01-26,2010-01-11
