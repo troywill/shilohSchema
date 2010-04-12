@@ -1,0 +1,24 @@
+#!/bin/bash
+RUBY_VERSION=$1
+set -o errexit
+SUDO="sudo"
+PREFIX='/usr'
+GEM_NAME='rails'
+GEM_VERSION='2.3.5'
+RUBY_VERSION=`ruby -e 'print RUBY_VERSION'`
+
+STOW_DIR='/stow'
+PACKAGE="${GEM_NAME}_${GEM_VERSION}_${RUBY_VERSION}"
+PACKAGE_DIR="${STOW_DIR}/${PACKAGE}"
+
+GEM="GEM_NAME-GEM_VERSION"
+
+${SUDO} gem install \
+    --verbose \
+    --install-dir ${PACKAGE_DIR}${PREFIX}/lib/ruby/gems/${RUBY_VERSION} \
+    --bindir ${PACKAGE_DIR}/${PREFIX}/bin \
+    --no-rdoc \
+    --no-ri \
+    --ignore-dependencies \
+    ${GEM_NAME}
+exit
