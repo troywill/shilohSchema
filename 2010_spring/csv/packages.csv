@@ -26,3 +26,4 @@ id,short_name,name,latest_version,date_released,date_checked
 25,Rose-DB,CPAN module: A DBI wrapper and abstraction layer,0.758,2010-01-26,2010-01-11
 26,Bit-Vector,CPAN module: Bit vector math library,7.1,2009-09-29,2010-04-11
 27,Carp-Clan,CPAN module: Report errors,6.04,2009-10-24,2010-04-11
+28,SQL-ReservedWords,CPAN module: Reserved SQL words by ANSI/ISO,2006-03-24,2010-01-11
