@@ -41,4 +41,4 @@ id,short_name,name,latest_version,date_released,date_checked
 40,Params-Validate,CPAN module: Params::Validate - Validate method/function parameters,0.95,2010-02-16,2010-04-12
 41,DateTime-TimeZone,CPAN: DateTime::TimeZone - Time zone object base class and factory,1.17,2010-04-10,2010-04-12
 42,Class-Singleton,"CPAN: Class::Singleton - Implementation of a ""Singleton"" class",1.4,2007-09-28,2010-04-12
-43,DateTime-Format-MySQL,"CPAN: DateTime::Format::MySQL - Parse and format MySQL dates and times,0.04,2005-04-17,2010-04-12
+43,DateTime-Format-MySQL,CPAN: DateTime::Format::MySQL - Parse and format MySQL dates and times,0.04,2005-04-17,2010-04-12
