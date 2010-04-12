@@ -54,9 +54,6 @@ echo $NSS_LINUXDIR
 do_install
 
 exit
-exit
-exit
-
 Command Explanations
 
    bash: Shells are started as many environment variables are created
