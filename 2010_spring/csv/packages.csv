@@ -28,3 +28,4 @@ id,short_name,name,latest_version,date_released,date_checked
 27,Carp-Clan,CPAN module: Report errors,6.04,2009-10-24,2010-04-11
 28,SQL-ReservedWords,CPAN module: Reserved SQL words by ANSI/ISO,0.7,2006-03-24,2010-01-11
 29,Sub-Exporter,CPAN module: an exporter for custom-built routines,0.982,2009-01-16,2010-04-11
+30,Data-OptList,CPAN module: Data::OptList - parse and validate simple name/value option pairs,0.106,2010-04-11
