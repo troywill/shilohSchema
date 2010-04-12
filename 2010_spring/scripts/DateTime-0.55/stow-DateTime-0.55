@@ -19,19 +19,19 @@ continue_prompt () {
 }
 
 do_configure () {
-    perl Makefile.PL PREFIX=${PREFIX} 2>&1 | tee log.stow.configure.${PACKAGE}-${VERSION}
+    perl Build.PL PREFIX=${PREFIX} 2>&1 | tee log.stow.configure.${PACKAGE}-${VERSION}
 }
 
 do_build () {
-    make 2>&1 | tee log.stow.make.${PACKAGE}-${VERSION}
+    ./Build 2>&1 | tee log.stow.make.${PACKAGE}-${VERSION}
 }
 
 do_test () {
-    make test 2>&1 | tee log.stow.make.test.${PACKAGE}-${VERSION}
+    ./Build test 2>&1 | tee log.stow.make.test.${PACKAGE}-${VERSION}
 }
 
 do_install () {
-    ${SUDO} make DESTDIR=${STOW_DIR}/${PACKAGE_DIR} install 2>&1 | tee log.stow.install.${PACKAGE}-${VERSION}
+    ${SUDO} Build DESTDIR=${STOW_DIR}/${PACKAGE_DIR} install 2>&1 | tee log.stow.install.${PACKAGE}-${VERSION}
 }
 
 do_stow () {
