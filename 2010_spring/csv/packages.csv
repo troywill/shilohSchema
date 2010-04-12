@@ -36,4 +36,4 @@ id,short_name,name,latest_version,date_released,date_checked
 35,DateTime,CPAN module: A date and time object,0.55,2010-03-16,2010-04-12
 36,Test-Exception,CPAN module: Test::Exception - Test exception based code,0.29,2010-01-11,2010-04-12
 37,Sub-Uplevel,CPAN module: Sub::Uplevel - apparently run a function in a higher stack frame,0.22,2009-11-17,2010-04-12
-38,DateTime-Locale,CPAN module: DateTime::Locale - Localization support for DateTime.pm
+38,DateTime-Locale,CPAN module: DateTime::Locale - Localization support for DateTime.pm,0.45,2010-03-19,2010-04-12
