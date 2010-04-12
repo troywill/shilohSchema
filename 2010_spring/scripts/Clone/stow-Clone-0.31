@@ -3,7 +3,6 @@ set -o errexit
 PACKAGE="Clone"
 VERSION="0.31"
 PACKAGER="TDW <troydwill@gmail.com>"
-# PACKAGER="JS <Jane_Smith@fsf.org>"
 DATE="2010-04-08"
 HOMEPAGE_URL="http://search.cpan.org/~rdf"
 SOURCE_URL="http://search.cpan.org/CPAN/authors/id/R/RD/RDF/Clone-0.31.tar.gz"
