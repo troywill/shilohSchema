@@ -52,3 +52,4 @@ id,short_name,name,latest_version,date_released,date_checked
 51,Perl-Critic,CPAN: Critique Perl source code for best-practices,1.105_03,2010-03-21,2010-04-13
 52,DBD-CSV,CPAN: DBI driver for CSV files,2010-03-16,2010-04-13
 53,Clone,CPAN: Clone - recursively copy Perl datatypes,0.31,2010-01-19,2010-04-13
+54,Params-Util,CPAN: Params::Util - Simple, compact and correct param-checking functions,1.01,2010-03-17,2010-04-13
