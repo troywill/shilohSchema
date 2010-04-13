@@ -15,7 +15,7 @@
 15,http://get.qt.nokia.com/qtsdk/qt-sdk-linux-x86-opensource-2010.02.bin,2010-04-06
 16,http://www.openssl.org/source/openssl-1.0.0.tar.gz,2010-10-06
 17,ftp://obsd.cec.mtu.edu/pub/OpenBSD/OpenSSH/portable/openssh-5.4p1.tar.gz,2010-04-06
-18,http://kernel.org/pub/software/scm/git/git-1.7.0.4.tar.bz2,2010-04-06
+18,http://kernel.org/pub/software/scm/git/git-1.7.0.5.tar.bz2,2010-04-13
 19,http://www.python.org/ftp/python/3.1.2/Python-3.1.2.tar.bz2,2010-04-06
 20,http://www.python.org/ftp/python/2.6.5/Python-2.6.5.tar.bz2,2010-04-06
 21,http://www.hpl.hp.com/research/linux/atomic_ops/download/libatomic_ops-7.2alpha4.tar.gz,2010-04-06

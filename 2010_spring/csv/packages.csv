@@ -1,57 +1,57 @@
 id,short_name,name,latest_version,date_released,date_checked
-1,Text-CSV,"CPAN module: Text::CSV",1.17,2010-03-16,2010-04-11
+1,Text-CSV,"CPAN module: Text::CSV",1.17,2010-03-16,2010-04-13
 2,sqlite3,"SQLite embedded SQL database engine",3.6.23.1,2010-03-30,2010-04-11
 3,libxml2,"The XML C parser and toolkit of Gnome",2.7.7,2010-03-15,2010-04-11
 4,libxslt,"The XSLT C library for GNOME (provides xsltproc)",1.1.26,2009-06-10,2010-04-11
 5,wget,"GNU Wget",1.12,2009-09-22,2010-04-11
-6,cpio,"GNU Cpio",2.11,2010-03-10,2010-04-11
+6,cpio,"GNU Cpio",2.11,2010-03-10,2010-04-13
 7,wireless_tools,"Wireless Tools for Linux",30-pre9,2009-11-24,2010-04-11
-8,dhcpcd,dhcpcd,5.2.2,2010-03-31,2010-04-11
-9,emacs-nox,"GNU Emacs without X support",23.1,2009-07-29,2010-04-11
+8,dhcpcd,dhcpcd,5.2.2,2010-03-31,2010-04-13
+9,emacs-nox,"GNU Emacs without X support",23.1,2009-07-29,2010-04-13
 10,rsync,rsync,3.0.7,2009-12-31,2010-04-11
-11,DBI,"DBI: the standard database interface module for Perl",1.611,2010-03-02,2010-04-11
-12,DBD-SQLite,"CPAN module: DBD-SQLite, Self-contained RDBMS (SQLite) in a DBI Driver",1.30_02,2010-03-30,2010-04-11
+11,DBI,"DBI: the standard database interface module for Perl",1.611,2010-03-02,2010-04-13
+12,DBD-SQLite,"CPAN module: DBD-SQLite, Self-contained RDBMS (SQLite) in a DBI Driver",1.30_02,2010-03-30,2010-04-13
 13,sudo,"run some (or all) commands as root",1.7.2p5,2010-03-01,2010-04-11
 14,qt-framework,"Qt application development framework",4.6.2,2010-02-15,2010-04-11
 15,qt-sdk,"Qt SDK: Complete Development Environment",4.6.2,2010-02-15,2010-04-11
 16,openssl,openssl,1.0.0,2010-03-29,2010-04-11
 17,openssh,"encrypted communication sessions",5.4p1,2010-03-08,2010-04-11
-18,git,"free revision control",1.7.0.4,2010-03-31,2010-04-11
+18,git,"free revision control",1.7.0.5,2010-03-31,2010-04-11
 19,python3,"Python Programming Language",3.1.2,2010-03-21,2010-04-11
 20,python,"Python Programming Language",2.6.5,2010-03-19,2010-04-11
-21,atomic_ops,"Multiplatform library with atomic operations",7.2alpha4,2009-12-02,2010-04-11
-22,expat,"Expat XML Parser",2.0.1,2007-06-05,2010-04-11
-23,freetype,"Freetype font engine",2.3.12,2010-02-12,2010-04-11
+21,atomic_ops,"Multiplatform library with atomic operations",7.2alpha4,2009-12-02,2010-04-13
+22,expat,"Expat XML Parser",2.0.1,2007-06-05,2010-04-13
+23,freetype,"Freetype font engine",2.3.12,2010-02-12,2010-04-13
 24,ruby,Ruby,1.9.2,2009-12-07,2010-04-11
-25,Rose-DB,CPAN module: A DBI wrapper and abstraction layer,0.758,2010-01-26,2010-04-11
-26,Bit-Vector,CPAN module: Bit vector math library,7.1,2009-09-29,2010-04-11
-27,Carp-Clan,CPAN module: Report errors,6.04,2009-10-24,2010-04-11
-28,SQL-ReservedWords,CPAN module: Reserved SQL words by ANSI/ISO,0.7,2006-03-24,2010-04-11
-29,Sub-Exporter,CPAN module: an exporter for custom-built routines,0.982,2009-01-16,2010-04-11
-30,Data-OptList,CPAN module: Data::OptList - parse and validate simple name/value option pairs,0.106,2010-02-14,2010-04-11
-31,Time-Clock,CPAN module: Twenty-four hour clock object with nanosecond precision,1.00,2010-03-09,2010-04-11
-32,Clone-PP,CPAN module: Clone::PP - Recursively copy Perl datatypes,1.02,2003-08-28,2010-04-11
-33,Rose-Object,CPAN module: A simple object base class,0.858,2010-02-10,2010-04-12
-34,Rose-DateTime,CPAN module: DateTime helper functions and objects,0.534,2010-03-22,2010-04-12
-35,DateTime,CPAN module: A date and time object,0.55,2010-03-16,2010-04-12
-36,Test-Exception,CPAN module: Test::Exception - Test exception based code,0.29,2010-01-11,2010-04-12
-37,Sub-Uplevel,CPAN module: Sub::Uplevel - apparently run a function in a higher stack frame,0.22,2009-11-17,2010-04-12
-38,DateTime-Locale,CPAN module: DateTime::Locale - Localization support for DateTime.pm,0.45,2010-03-19,2010-04-12
-39,List-MoreUtils,CPAN module: List::MoreUtils - Provide the stuff missing in List::Util,0.25_02,2009-08-01,2010-04-12
-40,Params-Validate,CPAN module: Params::Validate - Validate method/function parameters,0.95,2010-02-16,2010-04-12
-41,DateTime-TimeZone,CPAN: DateTime::TimeZone - Time zone object base class and factory,1.17,2010-04-10,2010-04-12
+25,Rose-DB,"CPAN module: A DBI wrapper and abstraction layer",0.758,2010-01-26,2010-04-13
+26,Bit-Vector,"CPAN module: Bit vector math library",7.1,2009-09-29,2010-04-13
+27,Carp-Clan,"CPAN module: Report errors",6.04,2009-10-24,2010-04-13
+28,SQL-ReservedWords,"CPAN module: Reserved SQL words by ANSI/ISO",0.7,2006-03-24,2010-04-13
+29,Sub-Exporter,"CPAN module: an exporter for custom-built routines",0.982,2009-01-16,2010-04-13
+30,Data-OptList,"CPAN module: Data::OptList - parse and validate simple name/value option pairs",0.106,2010-02-14,2010-04-13
+31,Time-Clock,"CPAN module: Twenty-four hour clock object with nanosecond precision",1.00,2010-03-09,2010-04-13
+32,Clone-PP,"CPAN module: Clone::PP - Recursively copy Perl datatypes",1.02,2003-08-28,2010-04-13
+33,Rose-Object,"CPAN module: A simple object base class",0.858,2010-02-10,2010-04-12
+34,Rose-DateTime,"CPAN module: DateTime helper functions and objects",0.534,2010-03-22,2010-04-12
+35,DateTime,"CPAN module: A date and time object",0.55,2010-03-16,2010-04-12
+36,Test-Exception,"CPAN module: Test::Exception - Test exception based code",0.29,2010-01-11,2010-04-12
+37,Sub-Uplevel,"CPAN module: Sub::Uplevel - apparently run a function in a higher stack frame",0.22,2009-11-17,2010-04-12
+38,DateTime-Locale,"CPAN module: DateTime::Locale - Localization support for DateTime.pm",0.45,2010-03-19,2010-04-12
+39,List-MoreUtils,"CPAN module: List::MoreUtils - Provide the stuff missing in List::Util",0.25_02,2009-08-01,2010-04-12
+40,Params-Validate,"CPAN module: Params::Validate - Validate method/function parameters",0.95,2010-02-16,2010-04-12
+41,DateTime-TimeZone,"CPAN: DateTime::TimeZone - Time zone object base class and factory",1.17,2010-04-10,2010-04-12
 42,Class-Singleton,"CPAN: Class::Singleton - Implementation of a ""Singleton"" class",1.4,2007-09-28,2010-04-12
-43,DateTime-Format-MySQL,CPAN: DateTime::Format::MySQL - Parse and format MySQL dates and times,0.04,2005-04-17,2010-04-12
-44,DateTime-Format-Builder,CPAN: DateTime::Format::Builder - Create DateTime parser classes and objects,0.80,2010-03-14,2010-04-12
-45,Class-Factory-Util,CPAN: Class::Factory::Util - Provide utility methods for factory classes,1.7,2010-03-30,2010-04-12
-46,DateTime-Format-Strptime,CPAN: DateTime::Format::Strptime - Parse and format strp and strf time patterns,1.2000,2010-03-19,2010-04-12
-47,Task-Weaken,CPAN: Task::Weaken - Ensure that a platform has weaken support,1.03,2009-06-12,2010-04-12
-48,DateTime-Format-Pg,CPAN: DateTime::Format::Pg - Parse and format PostgreSQL dates and times,0.16004,2009-07-05,2010-04-12
-49,ConfigReader-Simple,CPAN module: ConfigReader-Simple,1.28,2009-06-09,2012-04-12
-50,which,GNU which,2.20,2008-08-06,2010-04-13
-51,Perl-Critic,CPAN: Critique Perl source code for best-practices,1.105_03,2010-03-21,2010-04-13
-52,DBD-CSV,CPAN: DBI driver for CSV files,0.28,2010-03-16,2010-04-13
-53,Clone,CPAN: Clone - recursively copy Perl datatypes,0.31,2010-01-19,2010-04-13
+43,DateTime-Format-MySQL,"CPAN: DateTime::Format::MySQL - Parse and format MySQL dates and times",0.04,2005-04-17,2010-04-12
+44,DateTime-Format-Builder,"CPAN: DateTime::Format::Builder - Create DateTime parser classes and objects",0.80,2010-03-14,2010-04-12
+45,Class-Factory-Util,"CPAN: Class::Factory::Util - Provide utility methods for factory classes",1.7,2010-03-30,2010-04-12
+46,DateTime-Format-Strptime,"CPAN: DateTime::Format::Strptime - Parse and format strp and strf time patterns",1.2000,2010-03-19,2010-04-12
+47,Task-Weaken,"CPAN: Task::Weaken - Ensure that a platform has weaken support",1.03,2009-06-12,2010-04-12
+48,DateTime-Format-Pg,"CPAN: DateTime::Format::Pg - Parse and format PostgreSQL dates and times",0.16004,2009-07-05,2010-04-12
+49,ConfigReader-Simple,"CPAN module: ConfigReader-Simple",1.28,2009-06-09,2012-04-12
+50,which,"GNU which",2.20,2008-08-06,2010-04-13
+51,Perl-Critic,"CPAN: Critique Perl source code for best-practices",1.105_03,2010-03-21,2010-04-13
+52,DBD-CSV,"CPAN: DBI driver for CSV files",0.28,2010-03-16,2010-04-13
+53,Clone,"CPAN: Clone - recursively copy Perl datatypes",0.31,2010-01-19,2010-04-13
 54,Params-Util,"CPAN: Params::Util - Simple, compact and correct param-checking functions",1.01,2010-03-17,2010-04-13
-55,SQL-Statement,CPAN: SQL::Statement - SQL parsing and processing engine,1.26,2010-04-10,2010-04-12
-56,Text-CSV_XS,CPAN: Text::CSV_XS - comma-separated values manipulation routines,0.72,2010-03-16,2010-04-12
+55,SQL-Statement,"CPAN: SQL::Statement - SQL parsing and processing engine",1.26,2010-04-10,2010-04-12
+56,Text-CSV_XS,"CPAN: Text::CSV_XS - comma-separated values manipulation routines",0.72,2010-03-16,2010-04-12
