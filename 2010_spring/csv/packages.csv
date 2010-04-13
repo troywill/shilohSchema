@@ -53,3 +53,4 @@ id,short_name,name,latest_version,date_released,date_checked
 52,DBD-CSV,CPAN: DBI driver for CSV files,2010-03-16,2010-04-13
 53,Clone,CPAN: Clone - recursively copy Perl datatypes,0.31,2010-01-19,2010-04-13
 54,Params-Util,CPAN: Params::Util - Simple, compact and correct param-checking functions,1.01,2010-03-17,2010-04-13
+55,SQL-Statement,CPAN: SQL::Statement - SQL parsing and processing engine,1.26,2010-04-10,2010-04-12
