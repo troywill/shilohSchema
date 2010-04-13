@@ -54,7 +54,6 @@
 72,72,"gdb","The GNU Project Debugger","7.0","2009-10-06","2009-11-01"
 73,73,"dbus-glib","D-Bus GLib Bindings","0.82","2009-10-06","2009-11-01"
 74,74,"polkit","Unprivileged processes Toolkit","0.95","2009-11-13","2009-12-27"
-75,75,"ConfigReader-Simple","CPAN module: ConfigReader-Simple","1.28","2009-06-09","2012-04-01"
 76,76,"mcron","Mellors cron","1.04","2009-11-09","2009-12-17"
 77,77,"eggdbus","D-Bus GObject Bindings","0.6","2009-11-13","2009-12-27"
 78,78,"docbook-xsl-1.75.2","DocBook XSL Stylesheets","1.75.2","2009-11-09","2009-11-09"
