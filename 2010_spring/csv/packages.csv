@@ -49,3 +49,4 @@ id,short_name,name,latest_version,date_released,date_checked
 48,DateTime-Format-Pg,CPAN: DateTime::Format::Pg - Parse and format PostgreSQL dates and times,0.16004,2009-07-05,2010-04-12
 49,ConfigReader-Simple,CPAN module: ConfigReader-Simple,1.28,2009-06-09,2012-04-12
 50,which,GNU which,2.20,2008-08-06,2010-04-13
+51,Perl-Critic,CPAN: Critique Perl source code for best-practices,1.105_03,2010-03-21,2010-04-13
