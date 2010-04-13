@@ -50,3 +50,4 @@ id,short_name,name,latest_version,date_released,date_checked
 49,ConfigReader-Simple,CPAN module: ConfigReader-Simple,1.28,2009-06-09,2012-04-12
 50,which,GNU which,2.20,2008-08-06,2010-04-13
 51,Perl-Critic,CPAN: Critique Perl source code for best-practices,1.105_03,2010-03-21,2010-04-13
+52,DBD-CSV,CPAN: DBI driver for CSV files,2010-03-16,2010-04-13
