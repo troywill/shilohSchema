@@ -1,24 +1,24 @@
 id,short_name,name,latest_version,date_released,date_checked
 1,Text-CSV,"CPAN module: Text::CSV",1.17,2010-03-16,2010-04-13
 2,sqlite3,"SQLite embedded SQL database engine",3.6.23.1,2010-03-30,2010-04-11
-3,libxml2,"The XML C parser and toolkit of Gnome",2.7.7,2010-03-15,2010-04-11
-4,libxslt,"The XSLT C library for GNOME (provides xsltproc)",1.1.26,2009-06-10,2010-04-11
+3,libxml2,"The XML C parser and toolkit of Gnome",2.7.7,2010-03-15,2010-04-14
+4,libxslt,"The XSLT C library for GNOME (provides xsltproc)",1.1.26,2009-06-10,2010-04-14
 5,wget,"GNU Wget",1.12,2009-09-22,2010-04-11
 6,cpio,"GNU Cpio",2.11,2010-03-10,2010-04-13
 7,wireless_tools,"Wireless Tools for Linux",30-pre9,2009-11-24,2010-04-11
 8,dhcpcd,dhcpcd,5.2.2,2010-03-31,2010-04-13
 9,emacs-nox,"GNU Emacs without X support",23.1,2009-07-29,2010-04-13
-10,rsync,rsync,3.0.7,2009-12-31,2010-04-11
+10,rsync,rsync,3.0.7,2009-12-31,2010-04-14
 11,DBI,"DBI: the standard database interface module for Perl",1.611,2010-03-02,2010-04-13
 12,DBD-SQLite,"CPAN module: DBD-SQLite, Self-contained RDBMS (SQLite) in a DBI Driver",1.30_02,2010-03-30,2010-04-13
 13,sudo,"run some (or all) commands as root",1.7.2p5,2010-03-01,2010-04-11
-14,qt-framework,"Qt application development framework",4.6.2,2010-02-15,2010-04-11
-15,qt-sdk,"Qt SDK: Complete Development Environment",4.6.2,2010-02-15,2010-04-11
-16,openssl,openssl,1.0.0,2010-03-29,2010-04-11
-17,openssh,"encrypted communication sessions",5.4p1,2010-03-08,2010-04-11
+14,qt-framework,"Qt application development framework",4.6.2,2010-02-15,2010-04-14
+15,qt-sdk,"Qt SDK: Complete Development Environment",4.6.2,2010-02-15,2010-04-14
+16,openssl,openssl,1.0.0,2010-03-29,2010-04-14
+17,openssh,"encrypted communication sessions",5.4p1,2010-03-08,2010-04-14
 18,git,"free revision control",1.7.0.5,2010-03-31,2010-04-13
-19,python3,"Python Programming Language",3.1.2,2010-03-21,2010-04-11
-20,python,"Python Programming Language",2.6.5,2010-03-19,2010-04-11
+19,python3,"Python Programming Language",3.1.2,2010-03-21,2010-04-14
+20,python,"Python Programming Language",2.6.5,2010-03-19,2010-04-14
 21,atomic_ops,"Multiplatform library with atomic operations",7.2alpha4,2009-12-02,2010-04-13
 22,expat,"Expat XML Parser",2.0.1,2007-06-05,2010-04-13
 23,freetype,"Freetype font engine",2.3.12,2010-02-12,2010-04-13
@@ -47,7 +47,7 @@ id,short_name,name,latest_version,date_released,date_checked
 46,DateTime-Format-Strptime,"CPAN: DateTime::Format::Strptime - Parse and format strp and strf time patterns",1.2000,2010-03-19,2010-04-12
 47,Task-Weaken,"CPAN: Task::Weaken - Ensure that a platform has weaken support",1.03,2009-06-12,2010-04-12
 48,DateTime-Format-Pg,"CPAN: DateTime::Format::Pg - Parse and format PostgreSQL dates and times",0.16004,2009-07-05,2010-04-12
-49,ConfigReader-Simple,"CPAN module: ConfigReader-Simple",1.28,2009-06-09,2012-04-12
+49,ConfigReader-Simple,"CPAN module: ConfigReader-Simple",1.28,2009-06-09,2010-04-14
 50,which,"GNU which",2.20,2008-08-06,2010-04-13
 51,Perl-Critic,"CPAN: Critique Perl source code for best-practices",1.105_03,2010-03-21,2010-04-13
 52,DBD-CSV,"CPAN: DBI driver for CSV files",0.28,2010-03-16,2010-04-13
