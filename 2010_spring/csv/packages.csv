@@ -1,6 +1,6 @@
 id,short_name,name,latest_version,date_released,date_checked
 1,Text-CSV,"CPAN module: Text::CSV",1.17,2010-03-16,2010-04-13
-2,sqlite3,"SQLite embedded SQL database engine",3.6.23.1,2010-03-30,2010-04-11
+2,sqlite3,"SQLite embedded SQL database engine",3.6.23.1,2010-03-30,2010-04-16
 3,libxml2,"The XML C parser and toolkit of Gnome",2.7.7,2010-03-15,2010-04-14
 4,libxslt,"The XSLT C library for GNOME (provides xsltproc)",1.1.26,2009-06-10,2010-04-14
 5,wget,"GNU Wget",1.12,2009-09-22,2010-04-11
@@ -11,7 +11,7 @@ id,short_name,name,latest_version,date_released,date_checked
 10,rsync,rsync,3.0.7,2009-12-31,2010-04-14
 11,DBI,"DBI: the standard database interface module for Perl",1.611,2010-03-02,2010-04-13
 12,DBD-SQLite,"CPAN module: DBD-SQLite, Self-contained RDBMS (SQLite) in a DBI Driver",1.30_02,2010-03-30,2010-04-13
-13,sudo,"run some (or all) commands as root",1.7.2p5,2010-03-01,2010-04-11
+13,sudo,"run some (or all) commands as root",1.7.2p6,2010-04-09,2010-04-16
 14,qt-framework,"Qt application development framework",4.6.2,2010-02-15,2010-04-14
 15,qt-sdk,"Qt SDK: Complete Development Environment",4.6.2,2010-02-15,2010-04-14
 16,openssl,openssl,1.0.0,2010-03-29,2010-04-14
@@ -55,4 +55,4 @@ id,short_name,name,latest_version,date_released,date_checked
 54,Params-Util,"CPAN: Params::Util - Simple, compact and correct param-checking functions",1.01,2010-03-17,2010-04-13
 55,SQL-Statement,"CPAN: SQL::Statement - SQL parsing and processing engine",1.26,2010-04-10,2010-04-12
 56,Text-CSV_XS,"CPAN: Text::CSV_XS - comma-separated values manipulation routines",0.72,2010-03-16,2010-04-12
-57,Scalar-List-Utils,CPAN: Scalar::Util - A selection of general-utility scalar subroutines,1.23_02,2010-03-30,2010-04-15
+57,Scalar-List-Utils,"CPAN: Scalar::Util - A selection of general-utility scalar subroutines",1.23_02,2010-03-30,2010-04-15
