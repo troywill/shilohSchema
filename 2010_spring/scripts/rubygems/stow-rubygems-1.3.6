@@ -1,13 +1,15 @@
 #!/bin/bash
 set -o errexit
+VERSION="1.3.6"
+RUBY_VERSION="1.9.1p376"
 
 URL='http://rubyforge.org/frs/download.php/69365/rubygems-1.3.6.tgz'
 
 # ruby setup.rb --prefix=/usr --destdir=/stow/rubygems-1.3.6/ --no-rdoc --no-ri # Didn't work TDW 2010 April
 
-PREFIX="/usr/lib/ruby"
+PREFIX="/usr"
 DESTDIR="/stow/rubygems-1.3.6"
-sudo mkdir -v /stow/rubygems-1.3.6
-sudo chown -v troy /stow/rubygems-1.3.6
-sleep 5
+
+sudo mkdir -v --parent ${DESTDIR}
+sudo chown -v troy ${DESTDIR}
 ruby setup.rb --prefix=${PREFIX} --destdir=${DESTDIR} --no-rdoc --no-ri
