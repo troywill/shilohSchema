@@ -1,3 +1,11 @@
+<failure><2010-04-16>--bindir doesn't work</2010-04-16></failure>
+<failure><2010-04-16>
+DESTDIR=/stow/rubygems; PREFIX=/usr
+Won't find new rubygem library - uses the one in Ruby ( /usr/lib/ruby/1.9.1/rubygems )
+/usr/bin/gem:9:in equire': no such file to load -- rubygems/gem_runner (LoadError)
+        from /usr/bin/gem:9:in main>'
+</2010-04-16></failure>
+
 <failure>
 TDW 2010-04-09 => I ran ruby setup.rb as non-root and got this:
 ERROR:  While executing gem ... (Errno::EACCES)
@@ -9,4 +17,3 @@ TDW 2010-04-09 => DESTDIR=/stow/rubygems; PREFIX=/usr/lib/ruby
 What happened: puts gem binary in /usr/lib/ruby/bin/gem. Therefore, it won't execute
 
 </failure>
-

@@ -35,6 +35,15 @@ do_install () {
         make 2>&1 | tee log.stow.install
 }
 
+do_install () {
+    ${SUDO} gem install ${GEM_NAME} \
+	--no-rdoc \
+	--no-ri \
+	--ignore-dependencies \
+	--version ${VERSION} \
+        make 2>&1 | tee log.stow.install
+}
+
 do_stow () {
     ${SUDO} ${STOW} ${PACKAGE}
 }
