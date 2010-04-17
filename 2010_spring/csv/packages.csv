@@ -71,3 +71,4 @@ id,short_name,name,latest_version,date_released,date_checked
 70,Test-NoWarnings,"CPAN: Make sure you didn't emit any warnings while testing",1.01,2010-01-14,2010-04-17
 71,Test-Object,CPAN:,0,1961-08-02,2010-04-17
 72,Test-SubCalls,CPAN:,0,1961-08-02,2010-04-17
+73,Test-Tester,CPAN:,0,1961-08-02,2010-04-17

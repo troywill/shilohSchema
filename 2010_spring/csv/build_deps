@@ -107,6 +107,10 @@ emit_csv_deps ( 67, 0 );
 emit_csv_deps ( 68, 0 );
 # 69. File-Rename
 emit_csv_deps ( 69, 0 );
+# 70. Test-NoWarnings
+emit_csv_deps ( 70, 73 );
+# 73. Test-Tester
+emit_csv_deps ( 73, 73 );
 sub get_packages_hash {
     my %packages;
     my $packages = $dbh->selectall_arrayref(
