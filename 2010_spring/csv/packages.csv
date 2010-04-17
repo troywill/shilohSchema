@@ -72,3 +72,4 @@ id,short_name,name,latest_version,date_released,date_checked
 71,Test-Object,CPAN: Thoroughly testing objects via registered handlers,0.07,2006-09-06,2010-04-17
 72,Test-SubCalls,CPAN: Track the number of times subs are called,1.09,2009-04-19,2010-04-17
 73,Test-Tester,CPAN: Ease testing test modules built with Test::Builder,0.107,2008-03-01,2010-04-17
+74,Hook-LexWrap,CPAN: Lexically scoped subroutine wrappers,0.22,2008-12-18,2010-04-17
