@@ -69,6 +69,6 @@ id,short_name,name,latest_version,date_released,date_checked
 68,Class-Inspector,CPAN:Get information about a class and its structure,2009-04-20,2010-04-17
 69,File-Remove,CPAN:Perl extension for renaming multiple files,0.05,2007-10-03,2010-04-17
 70,Test-NoWarnings,"CPAN: Make sure you didn't emit any warnings while testing",1.01,2010-01-14,2010-04-17
-71,Test-Object,CPAN:,0,1961-08-02,2010-04-17
+71,Test-Object,CPAN: Thoroughly testing objects via registered handlers,0.07,2006-09-06,2010-04-17
 72,Test-SubCalls,CPAN:,0,1961-08-02,2010-04-17
-73,Test-Tester,CPAN:,0,1961-08-02,2010-04-17
+73,Test-Tester,CPAN: Ease testing test modules built with Test::Builder,0.107,2008-03-01,2010-04-17
