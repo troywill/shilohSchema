@@ -116,7 +116,7 @@ emit_csv_deps ( 72, 74 );
 # 73. Test-Tester
 emit_csv_deps ( 73, 0 );
 # 74. Hook-LexWrap
-
+emit_csv_deps ( 74, 0 );
 sub get_packages_hash {
     my %packages;
     my $packages = $dbh->selectall_arrayref(
