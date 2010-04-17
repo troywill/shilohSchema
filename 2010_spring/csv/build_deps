@@ -109,6 +109,8 @@ emit_csv_deps ( 68, 0 );
 emit_csv_deps ( 69, 0 );
 # 70. Test-NoWarnings
 emit_csv_deps ( 70, 73 );
+# 71. Test-Object
+emit_csv_deps ( 71, 0 );
 # 73. Test-Tester
 emit_csv_deps ( 73, 0 );
 sub get_packages_hash {
