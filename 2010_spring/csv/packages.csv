@@ -63,4 +63,6 @@ id,short_name,name,latest_version,date_released,date_checked
 62,Email-Address,CPAN: RFC 2822 Address Parsing and Creation,1.889,2007-12-19,2010-04-17
 63,Exception-Class,CPAN: A module that allows you to declare real exception classes in Perl,1.30,2010-03-20,2010-04-17
 64,IO-String,CPAN: Emulate file interface for in-core strings,1.08,2005-12-05,2010-04-17
-65,PPI,CPAN: Parse, Analyze and Manipulate Perl (without perl),PPI-1.211_01,2010-02-20,2010-04-17
+65,PPI,"CPAN: Parse, Analyze and Manipulate Perl (without perl)",1.211_01,2010-02-20,2010-04-17
+66,Class-Data-Inheritable,"CPAN: Inheritable, overridable class data",0.08,2008-01-24,2010-04-17
+67,Devel-StackTrace,CPAN: Stack trace and stack trace frame objects,1.22,2009-07-15,2010-04-17

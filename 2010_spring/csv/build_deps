@@ -91,6 +91,9 @@ emit_csv_deps ( 58, 0 );
 emit_csv_deps ( 60, 0 );
 # 61. Config-Tiny
 emit_csv_deps ( 61, 0 );
+# 62. Email-Address
+emit_csv_deps ( 62, 0 );
+
 
 
 sub get_packages_hash {
@@ -116,20 +119,3 @@ sub emit_csv_deps {
     }
 
 }
-
-__END__
-Bit::Vector::Overload:  6.4
-    Clone::PP:            0
-    DateTime::Duration:   0
-    DateTime::Format::MySQL:  0
-    DateTime::Format::Pg:  0.11
-    DBI:                  0
-    perl:                 5.006000
-    Rose::DateTime::Util:  0.532
-    Rose::Object:         0.854
-    Scalar::Util:         0
-    SQL::ReservedWords:   0
-    Test::More:           0
-    Time::Clock:          0
-r
-    
