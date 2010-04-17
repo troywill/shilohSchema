@@ -1,0 +1,2 @@
+Creates /usr/bin/rename and manpage which conflicts with Util-Linux
+Delete them - we only want the Perl module
