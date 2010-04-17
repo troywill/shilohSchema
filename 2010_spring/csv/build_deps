@@ -103,6 +103,8 @@ emit_csv_deps ( 65, 68, 69, 70, 71, 72 );
 emit_csv_deps ( 66, 0 );
 # 67. Devel-StackTrace
 emit_csv_deps ( 67, 0 );
+# 68. Class-Inspector
+emit_csv_deps ( 68, 0 );
 
 sub get_packages_hash {
     my %packages;
