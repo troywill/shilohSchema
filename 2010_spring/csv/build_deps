@@ -95,7 +95,12 @@ emit_csv_deps ( 61, 0 );
 emit_csv_deps ( 62, 0 );
 # 63. Exception-Class
 emit_csv_deps ( 63, 66, 67 );
-
+# 64. IO-String
+emit_csv_deps ( 64, 0 );
+# 66. Class-Data-Inheritable
+emit_csv_deps ( 66, 0 );
+# 67. Devel-StackTrace
+emit_csv_deps ( 67, 0 );
 
 sub get_packages_hash {
     my %packages;
