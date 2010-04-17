@@ -98,7 +98,7 @@ emit_csv_deps ( 63, 66, 67 );
 # 64. IO-String
 emit_csv_deps ( 64, 0 );
 # 65. PPI
-emit_csv_deps ( 68, 69, 70, 71, 72 );
+emit_csv_deps ( 65, 68, 69, 70, 71, 72 );
 # 66. Class-Data-Inheritable
 emit_csv_deps ( 66, 0 );
 # 67. Devel-StackTrace
