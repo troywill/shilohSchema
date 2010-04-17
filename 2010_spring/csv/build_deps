@@ -40,9 +40,12 @@ emit_csv_deps( 25, 26, 32, 35, 43, 48, 11, 34, 33, 28, 31 );
 # 27,Carp-Clan,"CPAN module: Report errors",6.04,2009-10-24,2010-04-13
 # 28. SQL-ReservedWords
 emit_csv_deps( 28, 29 );
-# 29,Sub-Exporter,"CPAN module: an exporter for custom-built routines",0.982,2009-01-16,2010-04-13
-# 30,Data-OptList,"CPAN module: Data::OptList - parse and validate simple name/value option pairs",0.106,2010-02-14,2010-04-13
-# 31,Time-Clock,"CPAN module: Twenty-four hour clock object with nanosecond precision",1.00,2010-03-09,2010-04-13
+# 29. Sub-Exporter
+emit_csv_deps( 29, 30, 54, 58 );
+# 30. Data-OptList
+emit_csv_deps( 30, 54, 58 );
+# 31. Time-Clock
+emit_csv_deps( 31, 0 );
 # 32,Clone-PP,"CPAN module: Clone::PP - Recursively copy Perl datatypes",1.02,2003-08-28,2010-04-13
 # 33. Rose-Object
 emit_csv_deps( 33, 0 );
@@ -80,7 +83,8 @@ emit_csv_deps( 48, 44, 41);
 # 55,SQL-Statement,"CPAN: SQL::Statement - SQL parsing and processing engine",1.26,2010-04-10,2010-04-12
 # 56,Text-CSV_XS,"CPAN: Text::CSV_XS - comma-separated values manipulation routines",0.72,2010-03-16,2010-04-12
 # 57,Scalar-List-Utils,"CPAN: Scalar::Util - A selection of general-utility scalar subroutines",1.23_02,2010-03-30,2010-04-15
-
+# 58. Sub-Install
+emit_csv_deps ( 58, 0 );
 
 sub get_packages_hash {
     my %packages;

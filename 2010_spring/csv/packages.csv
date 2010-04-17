@@ -57,3 +57,4 @@ id,short_name,name,latest_version,date_released,date_checked
 56,Text-CSV_XS,"CPAN: Text::CSV_XS - comma-separated values manipulation routines",0.72,2010-03-16,2010-04-12
 57,Scalar-List-Utils,"CPAN: Scalar::Util - A selection of general-utility scalar subroutines",1.23_02,2010-03-30,2010-04-15
 58,Sub-Install,CPAN: install subroutines into packages easily,0.925,2009-01-19,2009-04-18
+59,Rose-DB-Object,CPAN: Extensible, high performance object-relational mapper (ORM),0.786,2010-01-23,2010-04-16
