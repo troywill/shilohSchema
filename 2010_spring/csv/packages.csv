@@ -58,3 +58,9 @@ id,short_name,name,latest_version,date_released,date_checked
 57,Scalar-List-Utils,"CPAN: Scalar::Util - A selection of general-utility scalar subroutines",1.23_02,2010-03-30,2010-04-15
 58,Sub-Install,CPAN: install subroutines into packages easily,0.925,2009-01-19,2009-04-18
 59,Rose-DB-Object,"CPAN: Extensible, high performance object-relational mapper (ORM)",0.786,2010-01-23,2010-04-16
+60,B-Keywords,CPAN: B::Keywords - Lists of reserved barewords and symbol names,1.09,2009-03-08,2010-04-16
+61,Config-Tiny,CPAN: Read/Write .ini style files with as little code as possible,2.12,2007-11-01,2010-04-17
+62,Email-Address,CPAN: RFC 2822 Address Parsing and Creation,1.889,2007-12-19,2010-04-17
+63,Exception-Class,CPAN: A module that allows you to declare real exception classes in Perl,1.30,2010-03-20,2010-04-17
+64,IO-String,CPAN: Emulate file interface for in-core strings,1.08,2005-12-05,2010-04-17
+65,PPI,CPAN: Parse, Analyze and Manipulate Perl (without perl),PPI-1.211_01,2010-02-20,2010-04-17

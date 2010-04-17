@@ -76,7 +76,8 @@ emit_csv_deps( 47, 0 );
 emit_csv_deps( 48, 44, 41);
 # 49,ConfigReader-Simple,"CPAN module: ConfigReader-Simple",1.28,2009-06-09,2010-04-14
 # 50,which,"GNU which",2.20,2008-08-06,2010-04-13
-# 51,Perl-Critic,"CPAN: Critique Perl source code for best-practices",1.105_03,2010-03-21,2010-04-13
+# 51. Perl-Critic
+emit_csv_deps( 51, 60, 61, 62, 63, 64, 65);
 # 52,DBD-CSV,"CPAN: DBI driver for CSV files",0.28,2010-03-16,2010-04-13
 # 53,Clone,"CPAN: Clone - recursively copy Perl datatypes",0.31,2010-01-19,2010-04-13
 # 54,Params-Util,"CPAN: Params::Util - Simple, compact and correct param-checking functions",1.01,2010-03-17,2010-04-13
