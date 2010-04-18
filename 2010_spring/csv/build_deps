@@ -105,7 +105,7 @@ emit_csv_deps ( 66, 0 );
 emit_csv_deps ( 67, 0 );
 # 68. Class-Inspector
 emit_csv_deps ( 68, 0 );
-# 69. File-Rename
+# 69. File-Remove
 emit_csv_deps ( 69, 0 );
 # 70. Test-NoWarnings
 emit_csv_deps ( 70, 73 );

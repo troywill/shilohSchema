@@ -73,3 +73,6 @@ id,homepage_url,wikipedia_url,lfs_url,date_checked
 72,http://search.cpan.org/~adamk/Test-SubCalls,n/a,n/a,2010-04-17
 73,http://search.cpan.org/dist/Test-Tester,2010-04-17
 74,http://search.cpan.org/dist/Hook-LexWrap,2010-04-17
+75,"http://search.cpan.org/~elliotjs/PPIx-Utilities",2010-04-17
+76,"http://search.cpan.org/~roode/Readonly",2010-04-17
+77,"http://search.cpan.org/~darren/String-Format",2010-04-17
