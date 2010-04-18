@@ -78,3 +78,31 @@ id,short_name,name,latest_version,date_released,date_checked
 77,String-Format,"CPAN: sprintf-like string formatting capabilities with arbitrary format definitions",1.16,2009-05-17,2010-04-17
 78,Test-Deep,"CPAN: Extremely flexible deep comparison",0.106,2009-08-10,2010-04-17
 79,Catalyst-Runtime,CPAN: The Elegant MVC Web Application Framework,5.80022,2010-03-28,2010-04-17
+80,namespace-autoclean,"Keep imports out of your namespace",0.09,2009-09-14,2010-04-18
+81,namespace-clean,"",0.00,2010-,2010-
+82,B-Hooks-EndOfScope,"",0.00,2010-,2010-
+83,MooseX-Emulate-Class-Accessor-Fast,"",0.00,2010-,2010-
+84,Class-MOP,"",0.00,2010-,2010-
+85,Moose,"",0.00,2010-,2010-
+86,MooseX-MethodAttributes-Inheritable,"",0.00,2010-,2010-
+87,MooseX-Role-WithOverloading,"",0.00,2010-,2010-
+88,Class-C3-Adopt-NEXT,"",0.00,2010-,2010-
+89,CGI-Simple-Cookie,"",0.00,2010-,2010-
+90,Data-Dump,"",0.00,2010-,2010-
+91,HTML-Entities,"",0.00,2010-,2010-
+92,HTTP-Body,"",0.00,2010-,2010-
+93,HTTP-Headers,"",0.00,2010-,2010-
+94,HTTP-Request,"",0.00,2010-,2010-
+95,HTTP-Response,"",0.00,2010-,2010-
+96,HTTP-Request-AsCGI,"",0.00,2010-,2010-
+97,LWP-UserAgent,"",0.00,2010-,2010-
+98,Path-Class,"",0.00,2010-,2010-
+99,Text-SimpleTable,"",0.00,2010-,2010-
+100,Tree-Simple,"",0.00,2010-,2010-
+101,Tree-Simple-Visitor-FindByPath,"",0.00,2010-,2010-
+102,URI,"",0.00,2010-,2010-
+103,MRO-Compat,"",0.00,2010-,2010-
+104,MooseX-Getopt,"",0.00,2010-,2010-
+105,MooseX-Types,"",0.00,2010-,2010-
+106,MooseX-Types-Common-Numeric,"",0.00,2010-,2010-
+107,String-RewritePrefix,"",0.00,2010-,2010-
