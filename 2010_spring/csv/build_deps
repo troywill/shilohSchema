@@ -117,6 +117,15 @@ emit_csv_deps ( 72, 74 );
 emit_csv_deps ( 73, 0 );
 # 74. Hook-LexWrap
 emit_csv_deps ( 74, 0 );
+# 75. PPIx-Utilites
+emit_csv_deps ( 75, 76, 78 );
+# 76. Readonly
+emit_csv_deps ( 76, 0 );
+# 77. String-Format
+emit_csv_deps ( 77, 0 );
+# 78. Test-Deep
+emit_csv_deps ( 78, ... );
+
 sub get_packages_hash {
     my %packages;
     my $packages = $dbh->selectall_arrayref(
