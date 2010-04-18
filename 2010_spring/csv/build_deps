@@ -124,7 +124,7 @@ emit_csv_deps ( 76, 0 );
 # 77. String-Format
 emit_csv_deps ( 77, 0 );
 # 78. Test-Deep
-emit_csv_deps ( 78, ... );
+emit_csv_deps ( 78, 70, 73 );
 
 sub get_packages_hash {
     my %packages;
