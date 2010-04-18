@@ -56,7 +56,7 @@ id,short_name,name,latest_version,date_released,date_checked
 55,SQL-Statement,"CPAN: SQL::Statement - SQL parsing and processing engine",1.26,2010-04-10,2010-04-12
 56,Text-CSV_XS,"CPAN: Text::CSV_XS - comma-separated values manipulation routines",0.72,2010-03-16,2010-04-12
 57,Scalar-List-Utils,"CPAN: Scalar::Util - A selection of general-utility scalar subroutines",1.23_02,2010-03-30,2010-04-15
-58,Sub-Install,CPAN: install subroutines into packages easily,0.925,2009-01-19,2009-04-18
+58,Sub-Install,"CPAN: install subroutines into packages easily",0.925,2009-01-19,2009-04-18
 59,Rose-DB-Object,"CPAN: Extensible, high performance object-relational mapper (ORM)",0.786,2010-01-23,2010-04-16
 60,B-Keywords,CPAN: B::Keywords - Lists of reserved barewords and symbol names,1.09,2009-03-08,2010-04-16
 61,Config-Tiny,CPAN: Read/Write .ini style files with as little code as possible,2.12,2007-11-01,2010-04-17
@@ -66,7 +66,7 @@ id,short_name,name,latest_version,date_released,date_checked
 65,PPI,"CPAN: Parse, Analyze and Manipulate Perl (without perl)",1.211_01,2010-02-20,2010-04-17
 66,Class-Data-Inheritable,"CPAN: Inheritable, overridable class data",0.08,2008-01-24,2010-04-17
 67,Devel-StackTrace,CPAN: Stack trace and stack trace frame objects,1.22,2009-07-15,2010-04-17
-68,Class-Inspector,CPAN:Get information about a class and its structure,2009-04-20,2010-04-17
+68,Class-Inspector,"CPAN: Get information about a class and its structure",1.24,2009-04-20,2010-04-17
 69,File-Remove,"Remove files and directories",1.42,2008-07-09,2010-04-17
 70,Test-NoWarnings,"CPAN: Make sure you didn't emit any warnings while testing",1.01,2010-01-14,2010-04-17
 71,Test-Object,CPAN: Thoroughly testing objects via registered handlers,0.07,2006-09-06,2010-04-17
