@@ -1,8 +1,8 @@
 #!/bin/bash
 set -o errexit
 # Essential stow variables
-PACKAGE="DBI"
-VERSION="1.609"
+PACKAGE="Variable-Magic"
+VERSION="0.41"
 PREFIX="/usr"
 TARGET="/"
 STOW_DIR="/stow"
@@ -11,6 +11,7 @@ SUDO="sudo"
 
 # Non-essential meta info
 PACKAGER="TDW <troydwill@gmail.com>"
+# PACKAGER="JS <Jane_Smith@fsf.org>"
 DATE="2010-04-18"
 HOMEPAGE_URL=""
 SOURCE_URL=""

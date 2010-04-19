@@ -1,8 +1,8 @@
 #!/bin/bash
 set -o errexit
 # Essential stow variables
-PACKAGE="DBI"
-VERSION="1.609"
+PACKAGE="perl"
+VERSION="5.12.0"
 PREFIX="/usr"
 TARGET="/"
 STOW_DIR="/stow"
@@ -22,7 +22,7 @@ continue_prompt () {
 }
 
 do_configure () {
-    perl Makefile.PL PREFIX=${PREFIX} 2>&1 | tee log.stow.configure.${PACKAGE}-${VERSION}
+    sh Configure -des -Dprefix=${PREFIX} 2>&1 | tee log.stow.configure.${PACKAGE}-${VERSION}
 }
 
 do_build () {
@@ -53,6 +53,6 @@ do_configure && continue_prompt "with build"
 do_build && continue_prompt "with test"
 do_test && continue_prompt "with install"
 do_install && continue_prompt "with stow"
-do_stow && continue_prompt "with package"
+# do_stow && continue_prompt "with package"
 do_package
 

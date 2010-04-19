@@ -1,0 +1,53 @@
+#!/bin/bash
+set -o errexit
+PACKAGE="ntp"
+VERSION="4.2.6p1"
+PREFIX="/usr"
+TARGET="/"
+STOW_DIR="/stow"
+SUDO="sudo"
+
+PACKAGER="TDW <troydwill@gmail.com>"
+HOMEPAGE_URL="http://www.ntp.org"
+SOURCE_URL="http://www.eecis.udel.edu/~ntp/ntp_spool/ntp4/ntp-4.2.6p1.tar.gz"
+DATE="2010-04-18"
+
+PACKAGE_DIR=${PACKAGE}-${VERSION}
+
+do_configure () {
+    ./configure --prefix=${PREFIX} \
+	--sysconfdir=/etc \
+	--with-binsubdir=sbin \
+	2>&1 | tee log.stow.configure
+}
+
+do_build () {
+    make 2>&1 | tee log.stow.make
+}
+
+do_install () {
+    ${SUDO} make DESTDIR=${STOW_DIR}/${PACKAGE_DIR} install 2>&1 | tee log.stow.install
+}
+
+do_check_conflicts () {
+    ${SUDO} stow --conflicts --target=${TARGET} --dir=${STOW_DIR} ${PACKAGE_DIR} 2>&1 | tee log.stow.conflicts
+}
+
+do_stow () {
+    ${SUDO} stow --target=${TARGET} --dir=${STOW_DIR} ${PACKAGE_DIR} 2>&1 | tee log.stow.stow
+}
+
+do_package () {
+    TARBALL="${PACKAGE_DIR}.stow.tar.bz2"
+    cd ${STOW_DIR}
+    ${SUDO} tar -jcf ${TARBALL} ${PACKAGE_DIR}
+    ${SUDO} mv --verbose ${TARBALL} /tmp
+    md5sum /tmp/${TARBALL}
+}
+
+do_configure
+do_build
+do_install
+do_stow
+do_package
+exit
