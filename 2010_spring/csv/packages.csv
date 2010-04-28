@@ -12,7 +12,7 @@ id,short_name,name,latest_version,date_released,date_checked
 11,DBI,"DBI: the standard database interface module for Perl",1.611,2010-03-02,2010-04-13
 12,DBD-SQLite,"CPAN module: DBD-SQLite, Self-contained RDBMS (SQLite) in a DBI Driver",1.30_02,2010-03-30,2010-04-13
 13,sudo,"run some (or all) commands as root",1.7.2p6,2010-04-09,2010-04-16
-14,qt-framework,"Qt application development framework",4.6.2,2010-02-15,2010-04-14
+14,qt-framework,"Qt application development framework",4.7.0-tp,2010-04-27,2010-04-28
 15,qt-sdk,"Qt SDK: Complete Development Environment",4.6.2,2010-02-15,2010-04-14
 16,openssl,openssl,1.0.0,2010-03-29,2010-04-14
 17,openssh,"encrypted communication sessions",5.4p1,2010-03-08,2010-04-14
